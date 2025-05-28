@@ -35,6 +35,7 @@ int main() {
     resultado = numero1 - numero2;
 
     cout << "La resta de " << numero1 << " - " << numero2 << " es: " << resultado << endl;
+    
 //MULTIPLICACION
     float num1, num2, resultado;
 
