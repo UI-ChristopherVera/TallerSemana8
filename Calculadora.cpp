@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
+#include "suma.h" // Incluye el archivo de cabecera
 
 int main() {
-    float num1, num2, num3, promedio;
+      float num1, num2, num3, promedio;
 
-//SUMA
-    // Solicita al usuario que ingrese tres números
+    // SUMA
     cout << "Ingrese el primer número: ";
     cin >> num1;
 
@@ -15,10 +15,8 @@ int main() {
     cout << "Ingrese el tercer número: ";
     cin >> num3;
 
-    // Calcula el promedio
-    promedio = (num1 + num2 + num3) / 3;
+    promedio = calcularPromedio(num1, num2, num3); // Llama a la función desde suma.cpp
 
-    // Muestra el resultado
     cout << "El promedio es: " << promedio << endl;
 
 //RESTA
@@ -37,16 +35,16 @@ int main() {
     cout << "La resta de " << numero1 << " - " << numero2 << " es: " << resultado << endl;
     
 //MULTIPLICACION
-    float num1, num2, resultado;
+    float num1m, num2m, resultadom;
 
     cout << "Ingrese el primer número: ";
-    cin >> num1;
+    cin >> num1m;
 
     cout << "Ingrese el 2 número: ";
-    cin >> num2;
+    cin >> num2m;
 
-    resultado = num1 * num2;
+    resultado = num1m * num2m;
 
-    cout << "El resultado de la multiplicación es: " << resultado << endl;
+    cout << "El resultado de la multiplicación es: " << resultadom << endl;
     return 0;
 }
