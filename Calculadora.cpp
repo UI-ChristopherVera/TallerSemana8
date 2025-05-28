@@ -35,6 +35,18 @@ int main() {
     resultado = numero1 - numero2;
 
     cout << "La resta de " << numero1 << " - " << numero2 << " es: " << resultado << endl;
+//MULTIPLICACION
+    float num1, num2, resultado;
 
+    cout << "Ingrese el primer
+ número: ";
+    cin >> num1;
+
+    cout << "Ingrese el 2 número: ";
+    cin >> num2;
+
+    resultado = num1 * num2;
+
+    cout << "El resultado de la multiplicación es: " << resultado << endl;
     return 0;
 }
