@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     float num1, num2, num3, promedio;
 
+//SUMA
     // Solicita al usuario que ingrese tres números
     cout << "Ingrese el primer número: ";
     cin >> num1;
@@ -19,6 +20,21 @@ int main() {
 
     // Muestra el resultado
     cout << "El promedio es: " << promedio << endl;
+
+//RESTA
+    double numero1, numero2, resultado;
+
+    cout << "Programa para restar dos números" << endl;
+
+    cout << "Ingresa el primer número: ";
+    cin >> numero1;
+
+    cout << "Ingresa el segundo número: ";
+    cin >> numero2;
+
+    resultado = numero1 - numero2;
+
+    cout << "La resta de " << numero1 << " - " << numero2 << " es: " << resultado << endl;
 
     return 0;
 }
