@@ -39,8 +39,7 @@ int main() {
 //MULTIPLICACION
     float num1, num2, resultado;
 
-    cout << "Ingrese el primer
- número: ";
+    cout << "Ingrese el primer número: ";
     cin >> num1;
 
     cout << "Ingrese el 2 número: ";
